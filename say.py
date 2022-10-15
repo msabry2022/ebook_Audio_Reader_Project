@@ -1,3 +1,14 @@
+# -----------------------------------------------
+# Program Name : ebook Audio Reader
+# Project Number :001
+# Language Code: Python
+# Created By : Mohamed Sabry
+# Created Date : 14 October, 2022
+# Time : after course cs50 based on python
+# Why : review read me file on Github
+# Github Link: 
+#-------------------------------------------------
+
 #import text speech library
 import pyttsx3
 engine=pyttsx3.init()
@@ -24,6 +35,7 @@ with open("read.txt") as file:
             engine.runAndWait()
 
 file.close()
+print("\nfile is done")
 
 
 
